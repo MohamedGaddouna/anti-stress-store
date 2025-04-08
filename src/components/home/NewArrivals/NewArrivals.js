@@ -54,9 +54,8 @@ const NewArrivals = () => {
           <Product
             _id="100001"
             img={newArrOne}
-            productName="Round Table Clock"
+            productName="wraps for stress relief"
             price="44.00"
-            color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
@@ -65,9 +64,8 @@ const NewArrivals = () => {
           <Product
             _id="100002"
             img={newArrTwo}
-            productName="Smart Watch"
+            productName="Smart Water Bottels"
             price="250.00"
-            color="Black"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
@@ -76,9 +74,8 @@ const NewArrivals = () => {
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
+            productName="Smart Watch"
             price="80.00"
-            color="Mixed"
             badge={true}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
@@ -87,9 +84,8 @@ const NewArrivals = () => {
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
+            productName="BackSmart"
             price="60.00"
-            color="Mixed"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />
@@ -100,7 +96,6 @@ const NewArrivals = () => {
             img={newArrTwo}
             productName="Funny toys for babies"
             price="60.00"
-            color="Mixed"
             badge={false}
             des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
           />

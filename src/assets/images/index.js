@@ -1,29 +1,33 @@
-import logo from "./orebiLogo.png";
-import logoLight from "./logoLight.png";
-import bannerImgOne from "./banner/bannerImgOne.webp";
-import bannerImgTwo from "./banner/bannerImgTwo.webp";
-import bannerImgThree from "./banner/bannerImgThree.webp";
-import saleImgOne from "./sale/saleImgOne.webp";
-import saleImgTwo from "./sale/saleImgTwo.webp";
-import saleImgThree from "./sale/saleImgThree.webp";
+import logosite from "./logosite.png";
+import logos from "./logos.png"
+
+import banner1 from "./banner/banner1.jpeg";
+import banner2 from"./banner/banner2.jpg";
+import banner3 from "./banner/banner3.jpg";
+
+import sale from "./sale/sale.jpg";
+import saleclock from "./sale/saleclock.jpg";
+import salband from "./sale/saleband.jpg";
+
 // ============== Products Start here ====================
 // New Arrivals
-import newArrOne from "./products/newArrival/newArrOne.webp";
-import newArrTwo from "./products/newArrival/newArrTwo.webp";
-import newArrThree from "./products/newArrival/newArrThree.webp";
-import newArrFour from "./products/newArrival/newArrFour.webp";
+import newArrOne from "./products/newArrival/newArrBand.jpeg";
+import newArrTwo from "./products/newArrival/newArrWater2.jpeg";
+import newArrThree from "./products/newArrival/newarrsmart2.jpeg";
+import newArrFour from "./products/newArrival/newWater1.jpeg";
+
 
 // Best Sellers
-import bestSellerOne from "./products/bestSeller/bestSellerOne.webp";
-import bestSellerTwo from "./products/bestSeller/bestSellerTwo.webp";
-import bestSellerThree from "./products/bestSeller/bestSellerThree.webp";
-import bestSellerFour from "./products/bestSeller/bestSellerFour.webp";
+import bestSellerOne from "./products/bestSeller/bestsale1.jpeg";
+import bestSellerTwo from "./products/bestSeller/bestsale2.jpeg";
+import bestSellerThree from "./products/bestSeller/bestSale3.jpeg";
+import bestSellerFour from "./products/bestSeller/bestsale4.jpeg";
 
 // Special Offers
-import spfOne from "./products/specialOffer/spfOne.webp";
-import spfTwo from "./products/specialOffer/spfTwo.webp";
-import spfThree from "./products/specialOffer/spfThree.webp";
-import spfFour from "./products/specialOffer/spfFour.webp";
+import spfOne from "./products/specialOffer/special1.jpg";
+import spfTwo from "./products/specialOffer/special2.jpg";
+import spfThree from "./products/specialOffer/special3.webp";
+import spfFour from "./products/specialOffer/speciall4.jpeg";
 
 // Year Product
 import productOfTheYear from "./products/productOfTheYear.webp";
@@ -32,14 +36,14 @@ import paymentCard from "./payment.png";
 import emptyCart from "../images/emptyCart.png";
 
 export {
-  logo,
-  logoLight,
-  bannerImgOne,
-  bannerImgTwo,
-  bannerImgThree,
-  saleImgOne,
-  saleImgTwo,
-  saleImgThree,
+  logos,
+  logosite,
+  banner1,
+  banner2,
+  banner3,
+  sale,
+  saleclock,
+  salband,
   // ===================== Products start here ============
   // New Arrivals
   newArrOne,

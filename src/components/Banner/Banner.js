@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import {
-  bannerImgOne,
-  bannerImgTwo,
-  bannerImgThree,
+  banner1,
+  banner2,
+  banner3,
 } from "../../assets/images";
 import Image from "../designLayouts/Image";
 
@@ -102,19 +102,19 @@ const Banner = () => {
   return (
     <div className="w-full bg-white">
       <Slider {...settings}>
-        <Link to="/offer">
+        <Link to="/shop">
           <div>
-            <Image imgSrc={bannerImgOne} />
+            <Image imgSrc={banner1} />
           </div>
         </Link>
-        <Link to="/offer">
+        <Link to="/shop">
           <div>
-            <Image imgSrc={bannerImgTwo} />
+            <Image imgSrc={banner2}/>
           </div>
         </Link>
-        <Link to="/offer">
+        <Link to="/shop">
           <div>
-            <Image imgSrc={bannerImgThree} />
+            <Image imgSrc={banner3}/>
           </div>
         </Link>
       </Slider>

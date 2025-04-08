@@ -1,30 +1,23 @@
 import React, { useState } from "react";
 import Breadcrumbs from "../../components/pageProps/Breadcrumbs";
 import Pagination from "../../components/pageProps/shopPage/Pagination";
-import ProductBanner from "../../components/pageProps/shopPage/ProductBanner";
-import ShopSideNav from "../../components/pageProps/shopPage/ShopSideNav";
 
 const Shop = () => {
-  const [itemsPerPage, setItemsPerPage] = useState(12);
-  const itemsPerPageFromBanner = (itemsPerPage) => {
-    setItemsPerPage(itemsPerPage);
-  };
+  const [itemsPerPage] = useState(12);
+
 
   return (
-    <div className="max-w-container mx-auto px-4">
-      <Breadcrumbs title="Products" />
-      {/* ================= Products Start here =================== */}
-      <div className="w-full h-full flex pb-20 gap-10">
-        <div className="w-[20%] lgl:w-[25%] hidden mdl:inline-flex h-full">
-          <ShopSideNav />
-        </div>
-        <div className="w-full mdl:w-[80%] lgl:w-[75%] h-full flex flex-col gap-10">
-          <ProductBanner itemsPerPageFromBanner={itemsPerPageFromBanner} />
-          <Pagination itemsPerPage={itemsPerPage} />
-        </div>
-      </div>
-      {/* ================= Products End here ===================== */}
+<div className="min-h-screen flex flex-col items-center justify-center px-4">
+  <Breadcrumbs title="Products" />
+  
+  {/* ================= Shop =================== */}
+  <div className="w-full flex items-center justify-center pb-20">
+    <div className="w-full mdl:w-[80%] lgl:w-[75%] flex flex-col gap-10 items-center">
+      <Pagination itemsPerPage={itemsPerPage} />
     </div>
+  </div>
+</div>
+
   );
 };
 
